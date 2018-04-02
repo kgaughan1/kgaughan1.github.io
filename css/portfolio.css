@@ -4,12 +4,22 @@ body {
 }
 
 .jumbotron {
-    background-image: url('../img/bluefilterpic.gif');
+    /*background-image: url('../img/bluefilterpic.gif');*/
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+   /* background-repeat: no-repeat;
+    background-size: cover;*/
     background-color: rgba(0,0,0,0.5);
 	padding: 0px 0px;
+    border-left: 6px solid blue;
+    color:white;
+    padding-left: 10px;
+}
+
+.website-title {
+    padding: 0px 0px;
+    border-left: 6px solid blue;
+    color:white;
+    margin-bottom: 10px;
 }
 
 .left-pane {
