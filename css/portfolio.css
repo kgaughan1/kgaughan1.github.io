@@ -45,7 +45,7 @@ hr {
     box-shadow: 0 0 10px 1px blue;
 }
 
-hr:after { /* Not really supposed to work, but does */
+hr:after { 
     content: "\00a0"; /* Prevent margin collapse */
 }
 
